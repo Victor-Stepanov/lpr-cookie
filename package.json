@@ -1,0 +1,30 @@
+{
+  "name": "lpr-cookie",
+  "version": "1.0.0",
+  "description": "Написать сервер на Fastify, который будет обрабатывать куки для авторизации пользователя. Сервер должен иметь следующие маршруты:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victor-Stepanov/lpr-cookie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victor-Stepanov/lpr-cookie/issues"
+  },
+  "homepage": "https://github.com/Victor-Stepanov/lpr-cookie#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1"
+  }
+}

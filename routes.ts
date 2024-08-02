@@ -36,7 +36,8 @@ export async function routes(fastify: FastifyInstance) {
   fastify.get('/status', function (request, reply) {
     if (hasAuthCookie(request.headers.cookie)) {
       reply.send({ message: EMessages.Authorized });
+    } else {
+      reply.send({ message: EMessages.UnAuthorized });
     }
-    reply.send({ message: EMessages.UnAuthorized });
   });
 }
